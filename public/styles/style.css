@@ -1,0 +1,57 @@
+body{
+    font-family: 'comforter', serif;
+    font-size: 2rem;
+}
+
+title{
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+header{
+    height: 10rem;
+    width: 80%;
+    margin: 1rem auto;
+    text-align:center;
+}
+
+.button{
+    margin: 1rem auto;
+    border: 1px solid rgb(41, 41, 122);
+    border-radius: 10px;
+    font-size: 2rem;
+    color: white;
+    visibility: hidden;
+    background: linear-gradient(to bottom, #2d6dce 0%, #1c6f75 100%);
+    font-family: 'comforter', serif;
+}
+#links{
+    width: 600px;
+    height: 400px;
+    margin: 6rem auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.link{
+    padding: 1rem;
+    border: 1px solid rgb(41, 52, 214);
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #2d6dce 0%, #1c6f75 100%);
+    color: white;
+    height: 2rem;
+    position:relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.link > a{
+    color: white;
+    text-decoration: none;
+}
